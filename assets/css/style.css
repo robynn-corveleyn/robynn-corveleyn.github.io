@@ -12,7 +12,8 @@
 
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
   background: var(--bg);
   color: var(--fg);
   line-height: 1.6;
