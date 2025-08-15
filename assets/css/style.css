@@ -98,11 +98,11 @@ body.dark-mode {
   color: #f1f5f9;
 }
 
-header.dark-mode {
+body.dark-mode header {
   background-color: #1e293b;
   border-color: #334155;
 }
-footer.dark-mode {
+body.dark-mode footer {
   background-color: #1e293b;
   border-color: #334155;
 }
