@@ -7,9 +7,6 @@
   --border: #e2e8f0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-body {
-  font-family: 'Playfair Display', serif;
-}
 
 body {
   margin: 0;
