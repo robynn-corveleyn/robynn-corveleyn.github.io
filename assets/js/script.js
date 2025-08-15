@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Update footer year
   const yearSpan = document.getElementById('year');
   if (yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
+    const now = new Date();
+    const monthName = now.toLocaleString('default', { month: 'long' });
+    const year = now.getFullYear();
+    yearSpan.textContent = `${monthName} ${year}`;
   }
 
   // Dark mode toggle
