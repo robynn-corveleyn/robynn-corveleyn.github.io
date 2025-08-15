@@ -66,6 +66,32 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+#theme-toggle {
+  padding: 0.4rem 0.8rem;
+  border: 2px solid var(--border);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--fg);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+#theme-toggle:hover {
+  background: var(--brand);
+  color: white;
+  border-color: var(--brand);
+}
+
+body.dark-mode #theme-toggle {
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+body.dark-mode #theme-toggle:hover {
+  background: #0284c7;
+  border-color: #0284c7;
+}
 
 body.dark-mode {
   background-color: #0f172a;
