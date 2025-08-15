@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
     lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true,
-      'fadeDuration': 200
+      'fadeDuration': 200,
+      'alwaysShowNavOnTouchDevices': true
     });
   }
   // Smooth scroll for internal anchors
