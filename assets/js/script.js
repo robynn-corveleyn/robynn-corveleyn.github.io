@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const yearSpan = document.getElementById('year');
   if (yearSpan) {
     const now = new Date();
-    const monthName = now.toLocaleString('default', { month: 'long' });
+    const monthName = now.toLocaleString('en-US', { month: 'long' });
     const year = now.getFullYear();
-    yearSpan.textContent = `${monthName} ${year}`;
+    yearSpan.textContent = `${capitalizedMonth} ${year}`;
   }
 
   // Dark mode toggle
