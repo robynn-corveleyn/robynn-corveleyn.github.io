@@ -19,7 +19,7 @@ description: Find out about the outreach activities Robynn has been involved in.
     
   </section>
        <section style="margin-bottom:2rem;">
-      <h2>"Hosting the "Remember Maryam Mirzakhani" Exhibition at UCLouvain, 2025</h2>
+      <h2>Hosting the "Remember Maryam Mirzakhani" Exhibition at UCLouvain, 2025</h2>
       <p> For the <a href="https://may12.womeninmaths.org" target="_blank" rel="noopener">International day for women in Mathematics</a>, which takes place every year on the 12th of May, I
         hosted the "Remember Maryam Mirzakhani" exhibition, created by the International Mathematical Union's Committee for Women in Mathematics (CWM) at the institute for research in mathematics and physics at UCLouvain. The exhibition took            place from the 8th of May until the 3Oth of May 2025, and was visited by many staff members and students.
       </p>
