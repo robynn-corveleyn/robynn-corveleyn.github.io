@@ -20,16 +20,16 @@ description: Find out about the outreach activities Robynn has been involved in.
 
       <div class="gallery">
         <a href="{{ '/assets/images/canvas.PNG' | relative_url }}" data-lightbox="dedra-gallery" >
-            <img src="{{ '/assets/images/canvas.PNG' | relative_url }}" alt="Placeholder 1" style="width:150px; ">
+            <img src="{{ '/assets/images/canvas.PNG' | relative_url }}" alt="Placeholder 1" style="height:200px; ">
         </a>    
         <a href="{{ '/assets/images/curiosite.jpg' | relative_url }}" data-lightbox="dedra-gallery" >
-          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" style="width:150px; ">
+          <img src="{{ '/assets/images/curiosite.jpg' | relative_url }}" style="height:200px; ">
         </a>
         <a href="{{ '/assets/images/question.jpg' | relative_url }}" data-lightbox="dedra-gallery" >
-          <img src="{{ '/assets/images/question.jpg' | relative_url }}" style="width:150px; ">
+          <img src="{{ '/assets/images/question.jpg' | relative_url }}" style="height:200px; ">
         </a>
          <a href="{{ '/assets/images/theorem.jpg' | relative_url }}" data-lightbox="dedra-gallery" >
-          <img src="{{ '/assets/images/theorem.jpg' | relative_url }}" style="width:150px; ">
+          <img src="{{ '/assets/images/theorem.jpg' | relative_url }}" style="height:200px;; ">
         </a>
       </div>
     </section>
