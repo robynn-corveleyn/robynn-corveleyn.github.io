@@ -1,69 +1,60 @@
 // script.js for Jekyll academic site
 
-// Automatically update the footer year
 document.addEventListener('DOMContentLoaded', function() {
+  // Update footer year
   const yearSpan = document.getElementById('year');
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
   }
-});
-// Dark mode toggle
-document.addEventListener('DOMContentLoaded', () => {
+
+  // Dark mode toggle
   const toggleBtn = document.getElementById('theme-toggle');
   if (toggleBtn) {
     toggleBtn.addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
-      localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+      localStorage.setItem(
+        'theme',
+        document.body.classList.contains('dark-mode') ? 'dark' : 'light'
+      );
     });
-
-    // Load saved theme
     if (localStorage.getItem('theme') === 'dark') {
       document.body.classList.add('dark-mode');
     }
   }
 
-  // Initialize Anchor.js to add anchor links to headings
+  // Initialize Anchor.js
   if (window.anchors) {
-    anchors.options = {
-      visible: 'hover',
-      placement: 'right'
-    };
+    anchors.options = { visible: 'hover', placement: 'right' };
     anchors.add('h1, h2, h3, h4, h5, h6');
   }
-document.addEventListener('DOMContentLoaded', function() {
+
+  // Initialize Lightbox
   if (window.lightbox) {
-  lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true,
-    fadeDuration: 200
-  });
-  }  
-});
- 
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'fadeDuration': 200
+    });
+  }
 
-// Smooth scroll for internal anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    const targetId = this.getAttribute('href');
-    if (targetId.length > 1) {
-      e.preventDefault();
-      document.querySelector(targetId).scrollIntoView({
-        behavior: 'smooth'
-      });
-    }
+  // Smooth scroll for internal anchors
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      if (targetId.length > 1) {
+        e.preventDefault();
+        document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+      }
+    });
   });
-});
 
-// Fold out abstract boxes
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.abstract-toggle').forEach(function(link) {
+  // Fold-out abstract boxes
+  document.querySelectorAll('.abstract-toggle').forEach(link => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
       const abstract = this.nextElementSibling;
-      if (abstract.style.display === 'none') {
-        abstract.style.display = 'block';
-      } else {
-        abstract.style.display = 'none';
+      if (abstract) {
+        abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
       }
     });
   });
