@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-face {
+  font-family: 'Arvo'; /* Name you’ll use in CSS */
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap') format('truetype'); /* Path to the font file */
+  font-weight: normal; /* optional: normal, bold, etc. */
+  font-style: normal;  /* optional: normal, italic, etc. */
+}
 
 :root {
   --bg: #ffffff;
