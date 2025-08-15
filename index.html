@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – Your Name</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
+        <li><a href="{{ '/service/' | relative_url }}">Service</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" style="text-align:center; padding:2rem 0;">
+      <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="Photo of Your Name" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
+      <h1 style="margin-top:1rem;">Your Name</h1>
+      <p style="max-width:600px; margin:1rem auto;">
+        I am currently a PhD student at Université Catholique de Louvain, working in group theory under the supervision of 
+        <a href="https://perso.uclouvain.be/timothee.marquis/intro.htm" target="_blank" rel="noopener">Timothée Marquis</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>
