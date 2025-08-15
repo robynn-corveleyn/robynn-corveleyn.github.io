@@ -83,28 +83,27 @@ footer {
   border-color: var(--brand);
 }
 
+body.dark-mode {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Dark mode header and footer */
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+/* Dark mode button */
 body.dark-mode #theme-toggle {
-  color: #000000;
+  color: #000000; /* black text */
   border-color: #334155;
 }
 
 body.dark-mode #theme-toggle:hover {
   background: #0284c7;
   border-color: #0284c7;
-}
-
-body.dark-mode {
-  background-color: #0f172a;
-  color: #f1f5f9;
-}
-
-body.dark-mode header {
-  background-color: #1e293b;
-  border-color: #334155;
-}
-body.dark-mode footer {
-  background-color: #1e293b;
-  border-color: #334155;
 }
 
 nav a.dark-mode {
