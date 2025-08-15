@@ -108,6 +108,12 @@ body.dark-mode .dark-mode-toggle:hover {
   color: white;
 }
 
+body.dark-mode .abstract {
+background-color: #1e293b;
+color: #f1f5f9;
+border: 1px solid #334155;
+}
+
 @media (max-width: 600px) {
   nav ul {
     flex-wrap: wrap;
