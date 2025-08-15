@@ -22,7 +22,7 @@ title: Outreach
             <img src="{{ '/assets/images/canvas.PNG' | relative_url }}" alt="Placeholder 1" style="width:150px; height:100px;">
         </a>    
         <a href="{{ '/assets/images/contact-photo.jpg' | relative_url }}" data-lightbox="dedra-gallery" data-title="Placeholder Image 2">
-          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }} style="width:150px; height:100px;">
+          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" style="width:150px; height:100px;">
         </a>
       </div>
     </section>
