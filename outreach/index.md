@@ -17,7 +17,7 @@ title: Outreach
       <a href="https://www.uclouvain.be/fr/facultes/epl/dedra-math-isons" target="_blank" rel="noopener">Event page</a>
 
 
-      <div class="gallery"">
+      <div class="gallery">
         <a href="{{ '/assets/images/contact-photo.jpg' | relative_url }}" data-lightbox="dedra-gallery" data-title="Placeholder Image 1">
           <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 1" style="width:150px; height:100px;">
         </a>
