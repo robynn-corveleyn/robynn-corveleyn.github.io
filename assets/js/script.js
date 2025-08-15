@@ -27,7 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
     anchors.options = { visible: 'hover', placement: 'right' };
     anchors.add('h1, h2, h3, h4, h5, h6');
   }
-
+ // Initialize Lightbox
+  if (window.lightbox) {
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'fadeDuration': 200
+    });
+  }
   // Smooth scroll for internal anchors
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
