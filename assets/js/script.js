@@ -9,21 +9,38 @@ document.addEventListener('DOMContentLoaded', function() {
     const year = now.getFullYear();
     yearSpan.textContent = `${monthName} ${year}`;
   }
-
-  // Dark mode toggle
+  
   const toggleBtn = document.getElementById('theme-toggle');
   if (toggleBtn) {
-    toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      localStorage.setItem(
-        'theme',
-        document.body.classList.contains('dark-mode') ? 'dark' : 'light'
-      );
-    });
-    if (localStorage.getItem('theme') === 'dark') {
-      document.body.classList.add('dark-mode');
-    }
-  }
+  const updateToggleText = () => {
+    toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+  };
+
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem(
+      'theme',
+      document.body.classList.contains('dark-mode') ? 'dark' : 'light'
+    );
+    updateToggleText();
+  });
+
+  updateToggleText();
+}
+  // Dark mode toggle
+  //const toggleBtn = document.getElementById('theme-toggle');
+  //if (toggleBtn) {
+    //toggleBtn.addEventListener('click', () => {
+     // document.body.classList.toggle('dark-mode');
+     // localStorage.setItem(
+      //  'theme',
+       // document.body.classList.contains('dark-mode') ? 'dark' : 'light'
+      //);
+    //});
+    //if (localStorage.getItem('theme') === 'dark') {
+      //document.body.classList.add('dark-mode');
+    //}
+  //}
 
   // Initialize Anchor.js
   if (window.anchors) {
