@@ -7,16 +7,18 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
   <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-function unhide(divID) {
-    var item = document.getElementById(divID);
-    if (item) {
-        item.className=(item.className=='hidden')?'unhidden':'hidden';
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script>
+    function unhide(divID) {
+      var item = document.getElementById(divID);
+      if (item) {
+        item.className = (item.className=='hidden')?'unhidden':'hidden';
+      }
     }
- }
+  </script>
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </head>
 <body>
   <header>
@@ -37,7 +39,6 @@ function unhide(divID) {
   <footer>
     <p>© <span id="year"></span> Robynn Corveleyn. All rights reserved.</p>
   </footer>
-</script>
 <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
