@@ -91,7 +91,7 @@ footer {
   color: white;
   border-color: var(--brand);
 }
-
+@media (prefers-color-scheme: dark) {
 body.dark-mode {
   background-color: #0f172a;
   color: #f1f5f9;
@@ -121,6 +121,7 @@ body.dark-mode .abstract-text {
   background-color: #1e293b;
   color: #f1f5f9;
   border-left: 1px solid #334155;
+}
 }
 
 @media (max-width: 600px) {
