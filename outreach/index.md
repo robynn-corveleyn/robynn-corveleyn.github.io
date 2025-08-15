@@ -18,8 +18,8 @@ title: Outreach
 
 
       <div class="gallery">
-        <a href="/assets/images/contact-photo.jpg" data-lightbox="dedra-gallery" data-title="Placeholder Image 1">
-            <img src="/assets/images/contact-photo.jpg" alt="Placeholder 1" style="width:150px; height:100px;">
+        <a href="assets/images/canvas.PNG" data-lightbox="dedra-gallery" data-title="Placeholder Image 1">
+            <img src="assets/images/canvas.PNG" alt="Placeholder 1" style="width:150px; height:100px;">
         </a>    
         <a href="/assets/images/contact-photo.jpg" data-lightbox="dedra-gallery" data-title="Placeholder Image 2">
           <img src=""/assets/images/contact-photo.jpg" alt="Placeholder 2" style="width:150px; height:100px;">
