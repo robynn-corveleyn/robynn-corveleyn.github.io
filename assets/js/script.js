@@ -1,11 +1,12 @@
 // script.js for Jekyll academic site
 
 // Automatically update the footer year
-const yearSpan = document.getElementById('year');
-if (yearSpan) {
-  yearSpan.textContent = new Date().getFullYear();
-}
-
+document.addEventListener('DOMContentLoaded', function() {
+  const yearSpan = document.getElementById('year');
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
+});
 // Dark mode toggle
 document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.getElementById('theme-toggle');
