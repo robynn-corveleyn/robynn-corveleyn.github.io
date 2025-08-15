@@ -106,8 +106,8 @@ body.dark-mode #theme-toggle:hover {
   border-color: #0284c7;
 }
 
-nav a.dark-mode {
-  color: #f1f5f9;
+body.dark-mode nav a {
+  color: #f1f5f9; 
 }
 
 @media (max-width: 600px) {
