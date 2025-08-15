@@ -96,9 +96,10 @@ body.dark-mode footer {
 }
 
 body.dark-mode nav a,
+body.dark-mode #theme-toggle,
 body.dark-mode .dark-mode-toggle {
-  color: #f1f5f9; /* matches nav links in dark mode */
-  border-color: #334155; /* optional: match nav border style if desired */
+  color: #f1f5f9;
+  border-color: #334155;
 }
 
 body.dark-mode .dark-mode-toggle:hover {
