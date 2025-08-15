@@ -20,6 +20,10 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between; /* keeps nav on the left, button on the right */
+  align-items: center;
+  padding: 0.5rem 1rem;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
@@ -68,7 +72,10 @@ body.dark-mode {
   color: #f1f5f9;
 }
 
-header.dark-mode,
+header.dark-mode {
+  background-color: #1e293b;
+  border-color: #334155;
+}
 footer.dark-mode {
   background-color: #1e293b;
   border-color: #334155;
