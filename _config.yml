@@ -1,0 +1,20 @@
+destination: ./_site
+baseurl: ""  
+url: "https://robynn-corveleyn.github.io"  
+
+title: Robynn Corveleyn
+email: robynn.corveleyn@uclouvain.be
+
+description: >
+Academic homepage of Robynn Corveleyn, PhD student at UCLouvain.
+
+default_layout: default
+
+markdown: kramdown
+
+
+plugins:
+
+jekyll-feed
+
+jekyll-seo-tag
