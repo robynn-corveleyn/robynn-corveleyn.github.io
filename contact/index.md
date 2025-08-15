@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+description: Get in touch with Robynn Corveleyn.
 ---
 
 <main style="max-width:800px; margin:auto; padding:2rem; display:flex; gap:2rem; align-items:flex-start;">
