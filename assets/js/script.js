@@ -30,16 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     anchors.add('h1, h2, h3, h4, h5, h6');
   }
-
-  // Initialize Lightbox (basic example, using lightbox2)
+document.addEventListener('DOMContentLoaded', function() {
   if (window.lightbox) {
-    lightbox.option({
-      resizeDuration: 200,
-      wrapAround: true,
-      fadeDuration: 200
-    });
-  }
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+    fadeDuration: 200
+  });
+  }  
 });
+ 
 
 // Smooth scroll for internal anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
