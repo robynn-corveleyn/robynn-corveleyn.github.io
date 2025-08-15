@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Outreach
+description: Find out about the outreach activities Robynn has been involved in.
 ---
   <main style="max-width:800px; margin:auto; padding:2rem;">
     <h1>Outreach</h1>
