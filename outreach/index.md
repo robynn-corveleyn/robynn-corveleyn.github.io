@@ -13,7 +13,7 @@ title: Outreach
 
     <section>
       <h2>Talk at Dédra-MATH-isons 2025</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Vivamus non enim sed lacus tempor tincidunt.</p>
+      <p>Dédra-MATH-isons is an outreach event similar to math.en.jeans organised by the EPL of UCLouvain. High-school students (5th and 6th year, ages 16-18) give presentations on the mathematics projects they worked on in groups throughout the school year, and host stands/workshops. Every year, there are also talks by young researchers in mathematics and engineering. In this talk, I explained my motivations for doing research in mathematics: to me, research in mathematics is an answer to the innate human traits of curiosity and a desire for beauty. In this way mathematics plays the same role as the arts. I then also explained how it feels to do research in mathematics, which I likened to climbing a mountain that has never been climbed before. </p>
       <a href="https://www.uclouvain.be/fr/facultes/epl/dedra-math-isons" target="_blank" rel="noopener">Event page</a>
 
 
