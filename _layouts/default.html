@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} – Your Name</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script src="{{ '/assets/js/script.js' | relative_url }}" defer></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+function unhide(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+        item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+ }
+</script>
 </head>
 <body>
   <header>
