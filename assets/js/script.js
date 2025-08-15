@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
       e.preventDefault();
       const currentDisplay = window.getComputedStyle(abstract).display;
       abstract.style.display = (currentDisplay === 'none') ? 'block' : 'none';
-      }
     });
   });
 });
