@@ -77,9 +77,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.abstract-toggle').forEach(link => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
-      const abstract = this.nextElementSibling;
-      if (abstract) {
-        abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+      const currentDisplay = window.getComputedStyle(abstract).display;
+      abstract.style.display = (currentDisplay === 'none') ? 'block' : 'none';
       }
     });
   });
