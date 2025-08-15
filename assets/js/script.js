@@ -53,12 +53,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// MathJax configuration
-window.MathJax = {
-  tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
-  svg: { fontCache: 'global' }
-};
-
+// Fold out abstract boxes
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.abstract-toggle').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const abstract = this.nextElementSibling;
+      if (abstract.style.display === 'none') {
+        abstract.style.display = 'block';
+      } else {
+        abstract.style.display = 'none';
+      }
+    });
+  });
+});
 /* Include in your layout <head> to load dependencies:
 <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
