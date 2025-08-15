@@ -16,15 +16,16 @@ title: Outreach
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Vivamus non enim sed lacus tempor tincidunt.</p>
       <a href="https://www.uclouvain.be/fr/facultes/epl/dedra-math-isons" target="_blank" rel="noopener">Event page</a>
 
-      <div style="margin-top:1rem; display:flex; gap:1rem;">
+
+      <div class="gallery"">
         <a href="{{ '/assets/images/contact-photo.jpg' | relative_url }}" data-lightbox="dedra-gallery" data-title="Placeholder Image 1">
-          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 1" style="width:150px; height:100px; object-fit:cover;">
+          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 1" style="width:150px; height:100px;">
         </a>
         <a href="{{ '/assets/images/contact-photo.jpg' | relative_url }}" data-lightbox="dedra-gallery" data-title="Placeholder Image 2">
-          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 2" style="width:150px; height:100px; object-fit:cover;">
+          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 2" style="width:150px; height:100px;">
         </a>
         <a href="{{ '/assets/images/contact-photo.jpg' | relative_url }}" data-lightbox="dedra-gallery" data-title="Placeholder Image 3">
-          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 3" style="width:150px; height:100px; object-fit:cover;">
+          <img src="{{ '/assets/images/contact-photo.jpg' | relative_url }}" alt="Placeholder 3" style="width:150px; height:100px;">
         </a>
       </div>
     </section>
