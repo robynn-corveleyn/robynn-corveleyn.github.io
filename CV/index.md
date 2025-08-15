@@ -11,7 +11,7 @@ description: Consult Robynn Corveleyn's CV.
   <div style="flex:2;">
     <p> 
      Find my CV here: 
-  <a href="{{ '/assets/files/CV.pdf' | relative_url }}" target="_blank" rel="noopener">
+  <a href="{{ '/assets/files/CV.pdf' | relative_url }}" target="_blank" rel="opener">
     CV (PDF)
   </a>
     </p>
