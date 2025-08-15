@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Publications
+description: Click here for an overview of Robynn's publications
 ---
 
   <main style="max-width:800px; margin:auto; padding:2rem;">
