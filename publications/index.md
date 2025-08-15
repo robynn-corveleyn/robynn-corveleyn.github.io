@@ -11,7 +11,7 @@ description: Click here for an overview of Robynn's publications
       <h2>Preprints</h2>
       <ul>
         <li>
-          Robynn Corveleyn. Lie type quotients of the maximal unipotent subgroup of Kac-Moody groups of type $\mathrm{HB}_{2}^{(2)}$. 27 pages.<br>
+          Robynn Corveleyn. <i>Lie type quotients of the maximal unipotent subgroup of Kac-Moody groups of type $\mathrm{HB}_{2}^{(2)}$.</i> 27 pages.<br>
           <a href="https://arxiv.org/abs/2508.08070" target="_blank" rel="noopener">arXiv</a> |
           <a href="#" class="abstract-toggle">abstract</a>
           <div class="abstract-text" style="display:none; margin-top:0.5rem; background:#f9f9f9; padding:0.5rem; border-left:3px solid #ccc;">
