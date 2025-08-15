@@ -95,19 +95,16 @@ body.dark-mode footer {
   border-color: #334155;
 }
 
-/* Dark mode button */
-body.dark-mode #theme-toggle {
-  color: #000000; /* black text */
-  border-color: #334155;
+body.dark-mode nav a,
+body.dark-mode .dark-mode-toggle {
+  color: #f1f5f9; /* matches nav links in dark mode */
+  border-color: #334155; /* optional: match nav border style if desired */
 }
 
-body.dark-mode #theme-toggle:hover {
+body.dark-mode .dark-mode-toggle:hover {
   background: #0284c7;
   border-color: #0284c7;
-}
-
-body.dark-mode nav a {
-  color: #f1f5f9; 
+  color: white;
 }
 
 @media (max-width: 600px) {
