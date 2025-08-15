@@ -45,8 +45,8 @@ description: Find out about the outreach activities Robynn has been involved in.
          <a href="{{ '/assets/images/RMM3.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
           <img src="{{ '/assets/images/RMM3.jpeg' | relative_url }}" style="height:200px;; ">
         </a>
-          <a href="{{ '/assets/images/RMM4.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
-          <img src="{{ '/assets/images/RMM4.jpeg' | relative_url }}" style="height:200px;; ">
+          <a href="{{ '/assets/images/RMM4.jpg' | relative_url }}" data-lightbox="rmm-gallery" >
+          <img src="{{ '/assets/images/RMM4.jpg' | relative_url }}" style="height:200px;; ">
         </a>
       </div>
     </section>
