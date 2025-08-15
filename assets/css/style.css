@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 :root {
   --bg: #ffffff;
   --fg: #0f172a;
@@ -6,7 +8,7 @@
   --brand-hover: #0284c7;
   --border: #e2e8f0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 body {
   margin: 0;
