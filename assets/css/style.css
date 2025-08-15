@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'Playfair Display'; /* Name you’ll use in CSS */
-  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap') format('truetype'); /* Path to the font file */
-  font-weight: normal; /* optional: normal, bold, etc. */
-  font-style: normal;  /* optional: normal, italic, etc. */
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 :root {
   --bg: #ffffff;
