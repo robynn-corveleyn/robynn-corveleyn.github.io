@@ -12,18 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const toggleBtn = document.getElementById('theme-toggle');
   
-  // --- Detect system preference ---
-  const systemPrefersDark = window.matchMedia &&
-    window.matchMedia('(prefers-color-scheme: dark)').matches;
-  
-  // Apply saved theme on page load
+  // Determine the initial theme
   let savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    // Use saved preference
-    document.body.classList.toggle('dark-mode', savedTheme === 'dark');
-  } else {
-    // First visit → follow system preference
-    document.body.classList.toggle('dark-mode', systemPrefersDark);
+  // Check system preference
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  // If nothing is saved, store system preference
+  if (!savedTheme) {
+    savedTheme = prefersDark ? 'dark' : 'light';
+    localStorage.setItem('theme', savedTheme);
+  }
+  if (savedTheme === 'dark') {
+    document.body.classList.add('dark-mode');
   }
 
   if (toggleBtn) {
