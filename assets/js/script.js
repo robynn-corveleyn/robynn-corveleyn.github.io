@@ -33,15 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // --- Listen for system preference changes ---
   prefersDarkMedia.addEventListener('change', (e) => {
-    if (e.matches) {
-      // System switched to dark → always apply dark
-      applyTheme('dark');
-    } else {
-      // System switched to light → apply light only if no manual preference
-      if (!localStorage.getItem('theme')) {
-        applyTheme('light');
-      }
-    }
+    const newTheme = e.matches ? 'dark' : 'light';
+    applyTheme(newTheme);             // always override
+    localStorage.setItem('theme', newTheme); // update saved theme to match system
   });
 
   // --- Toggle button ---
