@@ -11,42 +11,47 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   const toggleBtn = document.getElementById('theme-toggle');
-  
+  const prefersDarkMedia = window.matchMedia('(prefers-color-scheme: dark)');
+
+  // --- Apply dark or light mode ---
+  const applyTheme = (theme) => {
+    if (theme === 'dark') document.body.classList.add('dark-mode');
+    else document.body.classList.remove('dark-mode');
+
+    if (toggleBtn) {
+      toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+    }
+  };
+
+  // --- Determine initial theme ---
   let savedTheme = localStorage.getItem('theme');
-const prefersDarkMedia = window.matchMedia('(prefers-color-scheme: dark)');
-
-const applyTheme = (theme) => {
-  if (theme === 'dark') document.body.classList.add('dark-mode');
-  else document.body.classList.remove('dark-mode');
-  if (toggleBtn) {
-    toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
-  }
-};
-
-// First load: use savedTheme if exists, otherwise system preference
-applyTheme(savedTheme || (prefersDarkMedia.matches ? 'dark' : 'light'));
-
-// Listen for system preference changes
-prefersDarkMedia.addEventListener('change', (e) => {
-  if (e.matches) {
-    // System switched to dark mode – always apply dark
-    applyTheme('dark');
+  if (savedTheme) {
+    applyTheme(savedTheme); // use saved user preference
   } else {
-    // System switched to light mode – optionally apply light
-    // only if you want system light to override
-    applyTheme('light');
+    applyTheme(prefersDarkMedia.matches ? 'dark' : 'light'); // use system preference
   }
-});
 
-// Toggle button sets theme and saves manual preference
-if (toggleBtn) {
-  toggleBtn.addEventListener('click', () => {
-    const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-    applyTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
+  // --- Listen for system preference changes ---
+  prefersDarkMedia.addEventListener('change', (e) => {
+    if (e.matches) {
+      // System switched to dark → always apply dark
+      applyTheme('dark');
+    } else {
+      // System switched to light → apply light only if no manual preference
+      if (!localStorage.getItem('theme')) {
+        applyTheme('light');
+      }
+    }
   });
-}
 
+  // --- Toggle button ---
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+      applyTheme(newTheme);
+      localStorage.setItem('theme', newTheme); // save manual choice
+    });
+  }
   
   // Initialize Anchor.js
   if (window.anchors) {
