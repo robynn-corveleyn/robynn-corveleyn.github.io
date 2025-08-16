@@ -22,27 +22,37 @@ document.addEventListener('DOMContentLoaded', function() {
     savedTheme = prefersDark ? 'dark' : 'light';
     localStorage.setItem('theme', savedTheme);
   }
-  if (savedTheme === 'dark') {
+  
+  const applyTheme = (theme) => {
+    // Apply dark or light mode
+  if (theme === 'dark') {
     document.body.classList.add('dark-mode');
   } else {
   document.body.classList.remove('dark-mode');
-}
-
+  }
   if (toggleBtn) {
-    const updateToggleText = () => {
-      toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
-    };
+    toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+    }
+  };
+    
+  applyTheme(savedTheme);
+  
+  prefersDarkMedia.addEventListener('change', (e) => {
+    const manualTheme = localStorage.getItem('theme');
+    if (!manualTheme || manualTheme === (e.matches ? 'dark' : 'light')) {
+      const newTheme = e.matches ? 'dark' : 'light';
+      applyTheme(newTheme);
+      localStorage.setItem('theme', newTheme);
+    }
+  });
 
+  // Toggle button
+  if (toggleBtn) {
     toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      localStorage.setItem(
-        'theme',
-        document.body.classList.contains('dark-mode') ? 'dark' : 'light'
-      );
-      updateToggleText();
+      const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+      applyTheme(newTheme);
+      localStorage.setItem('theme', newTheme);
     });
-
-    updateToggleText();
   }
 
   
@@ -83,9 +93,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 });
-/* Include in your layout <head> to load dependencies:
-<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
-*/
