@@ -12,48 +12,35 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const toggleBtn = document.getElementById('theme-toggle');
   
-  // Determine the initial theme
   let savedTheme = localStorage.getItem('theme');
-  // Check system preference
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const prefersDarkMedia = window.matchMedia('(prefers-color-scheme: dark)');
 
-  // If nothing is saved, store system preference
-  if (!savedTheme) {
-    savedTheme = prefersDark ? 'dark' : 'light';
-    localStorage.setItem('theme', savedTheme);
-  }
-  
-  const applyTheme = (theme) => {
-    // Apply dark or light mode
-  if (theme === 'dark') {
-    document.body.classList.add('dark-mode');
-  } else {
-  document.body.classList.remove('dark-mode');
-  }
+const applyTheme = (theme) => {
+  if (theme === 'dark') document.body.classList.add('dark-mode');
+  else document.body.classList.remove('dark-mode');
   if (toggleBtn) {
     toggleBtn.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
-    }
-  };
-    
-  applyTheme(savedTheme);
-  
-  prefersDarkMedia.addEventListener('change', (e) => {
-    const manualTheme = localStorage.getItem('theme');
-    if (!manualTheme || manualTheme === (e.matches ? 'dark' : 'light')) {
-      const newTheme = e.matches ? 'dark' : 'light';
-      applyTheme(newTheme);
-      localStorage.setItem('theme', newTheme);
-    }
-  });
-
-  // Toggle button
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', () => {
-      const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-      applyTheme(newTheme);
-      localStorage.setItem('theme', newTheme);
-    });
   }
+};
+
+// First load: use savedTheme if exists, otherwise system preference
+applyTheme(savedTheme || (prefersDarkMedia.matches ? 'dark' : 'light'));
+
+// Listen for system preference changes
+prefersDarkMedia.addEventListener('change', (e) => {
+  if (!localStorage.getItem('theme')) {
+    applyTheme(e.matches ? 'dark' : 'light');
+  }
+});
+
+// Toggle button sets theme and saves manual preference
+if (toggleBtn) {
+  toggleBtn.addEventListener('click', () => {
+    const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+    applyTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+  });
+}
 
   
   // Initialize Anchor.js
