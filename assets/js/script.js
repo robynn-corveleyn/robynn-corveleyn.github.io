@@ -11,10 +11,19 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   const toggleBtn = document.getElementById('theme-toggle');
-
+  
+  // --- Detect system preference ---
+  const systemPrefersDark = window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
   // Apply saved theme on page load
-  if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark-mode');
+  let savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    // Use saved preference
+    document.body.classList.toggle('dark-mode', savedTheme === 'dark');
+  } else {
+    // First visit → follow system preference
+    document.body.classList.toggle('dark-mode', systemPrefersDark);
   }
 
   if (toggleBtn) {
@@ -33,21 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateToggleText();
   }
-  // Dark mode toggle
-  //const toggleBtn = document.getElementById('theme-toggle');
-  //if (toggleBtn) {
-    //toggleBtn.addEventListener('click', () => {
-     // document.body.classList.toggle('dark-mode');
-     // localStorage.setItem(
-      //  'theme',
-       // document.body.classList.contains('dark-mode') ? 'dark' : 'light'
-      //);
-    //});
-    //if (localStorage.getItem('theme') === 'dark') {
-      //document.body.classList.add('dark-mode');
-    //}
-  //}
 
+  
   // Initialize Anchor.js
   if (window.anchors) {
     anchors.options = { visible: 'hover', placement: 'right' };
