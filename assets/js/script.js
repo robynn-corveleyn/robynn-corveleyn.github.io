@@ -28,8 +28,13 @@ applyTheme(savedTheme || (prefersDarkMedia.matches ? 'dark' : 'light'));
 
 // Listen for system preference changes
 prefersDarkMedia.addEventListener('change', (e) => {
-  if (!localStorage.getItem('theme')) {
-    applyTheme(e.matches ? 'dark' : 'light');
+  if (e.matches) {
+    // System switched to dark mode – always apply dark
+    applyTheme('dark');
+  } else {
+    // System switched to light mode – optionally apply light
+    // only if you want system light to override
+    applyTheme('light');
   }
 });
 
