@@ -3,10 +3,10 @@ layout: default
 title: Outreach
 description: Find out about the outreach activities Robynn has been involved in.
 ---
-  <main style="max-width:800px; margin:auto; padding:2rem;">
+  <main style="max-width:900px; margin:auto; padding:2rem;">
     <h1>Outreach & Gender equality in STEM</h1>
 
-  <section style="margin-bottom:2rem;">
+  <section style="margin-bottom:2rem;font-size:13pt">
       <h2>Maths Project Days UCLouvain</h2>
       <p> In 2025, I founded the Maths Project Days at UCLouvain. Inspired by similar projects in France, such as <a href="https://www.fr-cirm-math.fr/lescigales.html" target="_blank" rel ="noopener">Les Cigales</a> at CIRM in Marseille, this 4-day event invites <b>girls from ages 14 to 16</b> to come work in small groups on research projects under the supervision of mathematics researchers from UCLouvain. 
       </p>
