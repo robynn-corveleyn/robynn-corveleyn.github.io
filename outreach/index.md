@@ -3,7 +3,7 @@ layout: default
 title: Outreach
 description: Find out about the outreach activities Robynn has been involved in.
 ---
-  <main style="max-width:900px; margin:auto; padding:2rem;font-size:13pt">
+  <main style="max-width:900px; margin:auto; padding:2rem">
     <h1>Outreach & Gender equality in STEM</h1>
 
   <section style="margin-bottom:2rem;">
