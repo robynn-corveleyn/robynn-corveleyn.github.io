@@ -13,7 +13,7 @@ description: Get in touch with Robynn Corveleyn.
     <p>
       <a href="https://www.uclouvain.be/fr" target="_blank" rel="noopener">Université Catholique de Louvain</a><br>
       <a href="https://www.uclouvain.be/fr/instituts-recherche/irmp" target="_blank" rel="noopener">IRMP‑Math</a><br>
-      Office B3.323<br>
+      Office B323<br>
       Chemin du Cyclotron 2, Bte. L7.01.02<br>
       1348 Ottignies‑Louvain‑la‑Neuve<br>
       Belgium
