@@ -54,7 +54,7 @@ description: Find out about the outreach activities Robynn has been involved in.
     
   <section style="margin-bottom:2rem;">
       <h2>Talk at Dédra-MATH-isons 2025</h2>
-      <p>Dédra-MATH-isons is an outreach event similar to math.en.jeans organised by the EPL of UCLouvain. Apart from talks given by high-school students (5th and 6th year, ages 16-18) about the mathematics projects they worked on in groups throughout the school year, there are also talks by young researchers in mathematics and engineering. </p>
+      <p>Dédra-MATH-isons is an outreach event similar to math.en.jeans organised by the Faculty of Sciences the EPL of UCLouvain. Apart from talks given by high-school students (5th and 6th year, ages 16-18) about the mathematics projects they worked on in groups throughout the school year, there are also talks by young researchers in mathematics and engineering. </p>
       <p> In this talk (24 April 2025), I explained my motivations for doing research in mathematics: to me, research in mathematics is an answer to the innate human traits of curiosity and a desire for beauty. In this way mathematics plays the same role as the arts. I then also explained what it is like to do research in mathematics. I likened it to climbing a mountain that has never been climbed before. </p>
       <a href="https://www.uclouvain.be/fr/facultes/epl/dedra-math-isons" target="_blank" rel="noopener">Event page</a>
 
