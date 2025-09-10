@@ -8,7 +8,6 @@ email: "robynn.corveleyn@uclouvain.be"
 description: "Academic homepage of Robynn Corveleyn, PhD student at UCLouvain."
 plugins:
   - jekyll-sitemap
-  - jekyll-last-modified-at
 default_layout: default
 
 markdown: kramdown
