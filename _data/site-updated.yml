@@ -1,2 +1,0 @@
-- name: Write last updated date
-  run: echo "last_updated: '$(git log -1 --format=%cd --date=format:"%B %d, %Y")'" > _data/site-updated.yml
