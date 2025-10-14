@@ -5,7 +5,7 @@ description: Find out about the outreach activities Robynn has been involved in.
 ---
   <main style="max-width:1400px; margin:auto; padding:2rem">
     <h1>Outreach & Equity, Diversity and Inclusion in STEM</h1>
-
+      <p>It is important to me to promote mathematics, especially to children with systemic disadvantages (e.g. girls, children with a migration background, children whose parents did not attend higher education, etc). Below you can find the main activities I have organised and contributed to so far. I am involved in many initiatives, and am always interested to learn about similar work other people are doing. </p>
   <section style="margin-bottom:2rem;">
       <h2>Maths Project Days UCLouvain</h2>
       <p> In 2025, I founded the Maths Project Days at UCLouvain. Inspired by similar projects in France, such as <a href="https://www.fr-cirm-math.fr/lescigales.html" target="_blank" rel ="noopener">Les Cigales</a> at CIRM in Marseille, this 4-day event invites <b>girls from ages 14 to 16</b> to come work in small groups on research projects under the supervision of mathematics researchers from UCLouvain. 
@@ -27,25 +27,25 @@ description: Find out about the outreach activities Robynn has been involved in.
             <img src="{{ '/assets/images/IMG_3.JPG' | relative_url }}" style="height:150px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_5.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_5.jpeg' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_5.jpeg' | relative_url }}" style="height:150px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_6.jpg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_6.jpg' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_6.jpg' | relative_url }}" style="height:150px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_7.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_7.jpeg' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_7.jpeg' | relative_url }}" style="height:150px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_8.jpg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_8.jpg' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_8.jpg' | relative_url }}" style="height:150px; ">
         </a>
         <a href="{{ '/assets/images/IMG_9.png' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_9.png' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_9.png' | relative_url }}" style="height:150px; ">
         </a>
         <a href="{{ '/assets/images/IMG_10.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_10.JPG' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_10.JPG' | relative_url }}" style="height:150px; ">
         </a>
         <a href="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" style="height:100px; ">
+            <img src="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" style="height:150px; ">
         </a>
   </div>
     
