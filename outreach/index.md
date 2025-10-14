@@ -26,32 +26,26 @@ description: Find out about the outreach activities Robynn has been involved in.
         <a href="{{ '/assets/images/IMG_3.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
             <img src="{{ '/assets/images/IMG_3.JPG' | relative_url }}" style="height:100px; ">
         </a> 
-        <a href="{{ '/assets/images/IMG_4.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_4.jpeg' | relative_url }}" style="height:100px; ">
-        </a> 
         <a href="{{ '/assets/images/IMG_5.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_5.jpeg' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_5.jpeg' | relative_url }}" style="height:100px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_6.jpg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_6.jpg' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_6.jpg' | relative_url }}" style="height:100px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_7.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_7.jpeg' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_7.jpeg' | relative_url }}" style="height:100px; ">
         </a> 
         <a href="{{ '/assets/images/IMG_8.jpg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_8.jpg' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_8.jpg' | relative_url }}" style="height:100px; ">
         </a>
         <a href="{{ '/assets/images/IMG_9.png' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_9.png' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_9.png' | relative_url }}" style="height:100px; ">
         </a>
         <a href="{{ '/assets/images/IMG_10.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_10.JPG' | relative_url }}" style="height:200px; ">
-        </a>
-        <a href="{{ '/assets/images/IMG_11.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_11.jpeg' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_10.JPG' | relative_url }}" style="height:100px; ">
         </a>
         <a href="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" style="height:200px; ">
+            <img src="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" style="height:100px; ">
         </a>
   </div>
     
