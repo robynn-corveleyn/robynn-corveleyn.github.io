@@ -17,22 +17,19 @@ description: Find out about the outreach activities Robynn has been involved in.
       <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel="noopener">Event page</a></p>
 
   <div class="gallery">
-        <a href="{{ '/assets/images/speech.jpg' | relative_url }}" data-lightbox="rmm-gallery" >
-            <img src="{{ '/assets/images/speech.jpg' | relative_url }}" alt="Speech" style="height:200px; ">
+        <a href="{{ '/assets/images/IMG_1.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
+            <img src="{{ '/assets/images/IMG_1.JPG' | relative_url }}" style="height:200px; ">
         </a>    
-        <a href="{{ '/assets/images/RMM1.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
-          <img src="{{ '/assets/images/RMM1.jpeg' | relative_url }}" style="height:200px; ">
-        </a>
-        <a href="{{ '/assets/images/RMM2.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
-          <img src="{{ '/assets/images/RMM2.jpeg' | relative_url }}" style="height:200px; ">
-        </a>
-         <a href="{{ '/assets/images/RMM3.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
-          <img src="{{ '/assets/images/RMM3.jpeg' | relative_url }}" style="height:200px;; ">
-        </a>
-          <a href="{{ '/assets/images/RMM4.jpg' | relative_url }}" data-lightbox="rmm-gallery" >
-          <img src="{{ '/assets/images/RMM4.jpg' | relative_url }}" style="height:200px;; ">
-        </a>
-      </div>
+        <a href="{{ '/assets/images/IMG_2.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
+            <img src="{{ '/assets/images/IMG_2.JPG' | relative_url }}" style="height:200px; ">
+        </a> 
+        <a href="{{ '/assets/images/IMG_3.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
+            <img src="{{ '/assets/images/IMG_3.JPG' | relative_url }}" style="height:200px; ">
+        </a> 
+        <a href="{{ '/assets/images/IMG_4.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
+            <img src="{{ '/assets/images/IMG_1.jpeg' | relative_url }}" style="height:200px; ">
+        </a> 
+  </div>
     
   </section>
        <section style="margin-bottom:2rem;">
