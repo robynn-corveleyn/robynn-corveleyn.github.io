@@ -13,9 +13,26 @@ description: Find out about the outreach activities Robynn has been involved in.
       <p>
         The key aim is to provide an open and welcoming space for girls to explore their interest in mathematics, in hopes of counteracting internalised biases that might prevent them from wanting to pursue mathematics and STEM. 
       </p>
-      <p> The first iteration of the event is set to take place from the 3rd until the 6th of September 2025. 
+      <p> The first iteration of the event is took place from the 3rd until the 6th of September 2025. 
       <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel="noopener">Event page</a></p>
 
+  <div class="gallery">
+        <a href="{{ '/assets/images/speech.jpg' | relative_url }}" data-lightbox="rmm-gallery" >
+            <img src="{{ '/assets/images/speech.jpg' | relative_url }}" alt="Speech" style="height:200px; ">
+        </a>    
+        <a href="{{ '/assets/images/RMM1.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
+          <img src="{{ '/assets/images/RMM1.jpeg' | relative_url }}" style="height:200px; ">
+        </a>
+        <a href="{{ '/assets/images/RMM2.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
+          <img src="{{ '/assets/images/RMM2.jpeg' | relative_url }}" style="height:200px; ">
+        </a>
+         <a href="{{ '/assets/images/RMM3.jpeg' | relative_url }}" data-lightbox="rmm-gallery" >
+          <img src="{{ '/assets/images/RMM3.jpeg' | relative_url }}" style="height:200px;; ">
+        </a>
+          <a href="{{ '/assets/images/RMM4.jpg' | relative_url }}" data-lightbox="rmm-gallery" >
+          <img src="{{ '/assets/images/RMM4.jpg' | relative_url }}" style="height:200px;; ">
+        </a>
+      </div>
     
   </section>
        <section style="margin-bottom:2rem;">
