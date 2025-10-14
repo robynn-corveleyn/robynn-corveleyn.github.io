@@ -44,14 +44,8 @@ description: Find out about the outreach activities Robynn has been involved in.
         <a href="{{ '/assets/images/IMG_9.png' | relative_url }}" data-lightbox="MPD-gallery" >
             <img src="{{ '/assets/images/IMG_9.png' | relative_url }}" style="height:150px; ">
         </a>
-        <a href="{{ '/assets/images/IMG_10.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_10.JPG' | relative_url }}" style="height:150px; ">
-        </a>
         <a href="{{ '/assets/images/IMG_11.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
             <img src="{{ '/assets/images/IMG_11.jpeg' | relative_url }}" style="height:150px; ">
-        </a>
-        <a href="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_12.jpeg' | relative_url }}" style="height:150px; ">
         </a>
   </div>
     
