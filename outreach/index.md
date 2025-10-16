@@ -17,8 +17,8 @@ description: Find out about the outreach activities Robynn has been involved in.
       <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel="noopener">Event page</a></p>
 
   <div class="gallery">
-        <a href="{{ '/assets/images/IMG_0.jpeg' | relative_url }}" data-lightbox="MPD-gallery" >
-            <img src="{{ '/assets/images/IMG_0.jpeg' | relative_url }}" style="height:150px; ">
+        <a href="{{ '/assets/images/IMG_0.jpg' | relative_url }}" data-lightbox="MPD-gallery" >
+            <img src="{{ '/assets/images/IMG_0.jpg' | relative_url }}" style="height:150px; ">
         </a>
         <a href="{{ '/assets/images/IMG_1.JPG' | relative_url }}" data-lightbox="MPD-gallery" >
             <img src="{{ '/assets/images/IMG_1.JPG' | relative_url }}" style="height:150px; ">
