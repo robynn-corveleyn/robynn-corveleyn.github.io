@@ -11,7 +11,7 @@ description: Click here for an overview of Robynn's publications
       <h2>Preprints</h2>
       <ul>
         <li>
-          Robynn Corveleyn. <i>Lie type quotients of the maximal unipotent subgroup of Kac-Moody groups of type $\mathrm{HB}_{2}^{(2)}$.</i> 27 pages.<br>
+          Robynn Corveleyn. <i>Lie type quotients of the maximal unipotent subgroup of Kac-Moody groups of type $\mathrm{HB}_{2}^{(2)}$.</i> August 2025. 27 pages.<br>
           <a href="https://arxiv.org/abs/2508.08070" target="_blank" rel="noopener">arXiv</a> |
           <a href="#" class="abstract-toggle">abstract</a>
           <div class="abstract-text">
@@ -19,6 +19,17 @@ description: Click here for an overview of Robynn's publications
             
           </div>
         </li>
+        <li>
+          Robynn Corveleyn, Geoffrey Janssens and Doryan Temmerman. <i>Representing in Low Rank I: conjugacy, topological and homological aspects.</i> December 2025. 58 pages.<br>
+          arXiv |
+          <a href="#" class="abstract-toggle">abstract</a>
+          <div class="abstract-text">
+            <p>In this series of papers, we investigate properties of a finite group which are determined by its low degree irreducible representations over a number field $F$, i.e. its representations on matrix rings $\operatorname{M}_n(D)$ with $n \leq 2$. In particular we focus on representations on $\operatorname{M}_2(D)$ where $D$ is a division algebra having an order $\mathcal{O}$ such that $\mathcal{O}$ has finitely many units, i.e. such that $\operatorname{SL}_2(\mathcal{O})$ has arithmetic rank $1$. In this first part, the focus is on two aspects. </p> 
+            <p> One aspect concerns characterisations of such representing spaces in terms of Serre's homological goodness property, small virtual cohomological dimension and higher Kleinian-type embeddings. As an application, we obtain several characterisations of the finite groups $G$ whose irreducible representations are of the mentioned form. In particular, such groups $G$ are precisely those such that $\mathcal{U}(R G)$, with $R$ the ring of integers of $F$, can be constructed from groups which virtually map onto a non-abelian free group. Along the way we investigate the latter property for congruence subgroups of higher modular groups and its implications for the congruence kernel. This is used to obtain new information on the congruence kernel of the unit group of a group ring. </p>
+
+    <p> The second aspect concerns the conjugacy classes of the images of finite subgroups of $\mathcal{U}(R G)$ under the irreducible representations of $G$. More precisely, we initiate the study of a blockwise variant of the Zassenhaus conjectures and the subgroup isomorphism problem. Moreover, we contribute to them for the low rank representations above. </p>
+          </div>
+        </il>
       </ul>
     </section>
   </main>
