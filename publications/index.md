@@ -11,16 +11,7 @@ description: Click here for an overview of Robynn's publications
       <h2>Preprints</h2>
       <ul>
         <li>
-          Robynn Corveleyn. <i>Lie type quotients of the maximal unipotent subgroup of Kac-Moody groups of type $\mathrm{HB}_{2}^{(2)}$.</i> August 2025. 27 pages.<br>
-          <a href="https://arxiv.org/abs/2508.08070" target="_blank" rel="noopener">arXiv</a> |
-          <a href="#" class="abstract-toggle">abstract</a>
-          <div class="abstract-text">
-            <p>In this article, we construct infinite families $(G_n)_{n \in \mathbb{N}}$ of finite simple groups $G_n$ of Lie type, such that the rank of $G_n$ strictly increases as $n$ tends to infinity, and such that each $G_n$ is a quotient of the maximal unipotent subgroup $U^+$ of the (minimal) Kac-Moody group $\mathfrak{G}_A(\mathbb{K})$ of type $\mathrm{HB}^{(2)}_{2}$ over a finite field $\mathbb{K}$. Moreover, we show that the quotient maps lead to the construction of an infinite family of bounded degree spectral high-dimensional expanders. These provide the first class of examples of infinite families of high-dimensional expanders constructed from Lie type groups of unbounded rank.</p>
-            
-          </div>
-        </li>
-        <li>
-          Robynn Corveleyn, Geoffrey Janssens and Doryan Temmerman. <i>Representing in Low Rank I: conjugacy, topological and homological aspects.</i> December 2025. 58 pages.<br>
+          Robynn Corveleyn, <a href="https://geoffreyjanssens.github.io/" target="_blank" rel="noopener"> Geoffrey Janssens</a> and <a href="https://researchportal.vub.be/nl/persons/doryan-temmerman/" target="_blank" rel="noopener"> Doryan Temmerman</a>. <i>Representing in Low Rank I: Conjugacy, Topological and Homological aspects.</i> December 2025. 58 pages.<br>
           arXiv |
           <a href="#" class="abstract-toggle">abstract</a>
           <div class="abstract-text">
@@ -30,6 +21,16 @@ description: Click here for an overview of Robynn's publications
             <p> The second aspect concerns the conjugacy classes of the images of finite subgroups of $\mathcal{U}(R G)$ under the irreducible representations of $G$. More precisely, we initiate the study of a blockwise variant of the Zassenhaus conjectures and the subgroup isomorphism problem. Moreover, we contribute to them for the low rank representations above. </p>
           </div>
         </li>
+        <li>
+          Robynn Corveleyn. <i>Lie type quotients of the maximal unipotent subgroup of Kac-Moody groups of type $\mathrm{HB}_{2}^{(2)}$.</i> August 2025. 27 pages.<br>
+          <a href="https://arxiv.org/abs/2508.08070" target="_blank" rel="noopener">arXiv</a> |
+          <a href="#" class="abstract-toggle">abstract</a>
+          <div class="abstract-text">
+            <p>In this article, we construct infinite families $(G_n)_{n \in \mathbb{N}}$ of finite simple groups $G_n$ of Lie type, such that the rank of $G_n$ strictly increases as $n$ tends to infinity, and such that each $G_n$ is a quotient of the maximal unipotent subgroup $U^+$ of the (minimal) Kac-Moody group $\mathfrak{G}_A(\mathbb{K})$ of type $\mathrm{HB}^{(2)}_{2}$ over a finite field $\mathbb{K}$. Moreover, we show that the quotient maps lead to the construction of an infinite family of bounded degree spectral high-dimensional expanders. These provide the first class of examples of infinite families of high-dimensional expanders constructed from Lie type groups of unbounded rank.</p>
+            
+          </div>
+        </li>
+        
       </ul>
     </section>
   </main>
