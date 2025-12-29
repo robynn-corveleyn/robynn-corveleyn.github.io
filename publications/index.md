@@ -12,7 +12,7 @@ description: Click here for an overview of Robynn's publications
       <ul>
         <li>
           Robynn Corveleyn, <a href="https://geoffreyjanssens.github.io/" target="_blank" rel="noopener"> Geoffrey Janssens</a> and <a href="https://researchportal.vub.be/nl/persons/doryan-temmerman/" target="_blank" rel="noopener"> Doryan Temmerman</a>. <i>Representing in Low Rank I: Conjugacy, Topological and Homological aspects.</i> December 2025. 58 pages.<br>
-          arXiv |
+          <a href="https://arxiv.org/abs/2512.22052" target ="_blank" rel="noopener">arXiv</a> |
           <a href="#" class="abstract-toggle">abstract</a>
           <div class="abstract-text">
             <p>  In this series of papers, we investigate properties of a finite group which are determined by its low degree irreducible representations over a number field $F$, i.e. its representations on matrix rings $\operatorname{M}_n(D)$ with $n \leq 2$. In particular we focus on representations on $\operatorname{M}_2(D)$ where $D$ is a division algebra having an order $\mathcal{O}$ such that $\mathcal{O}$ has finitely many units, i.e. such that $\operatorname{SL}_2(\mathcal{O})$ has arithmetic rank $1$. In this first part, the focus is on two aspects. </p> 
