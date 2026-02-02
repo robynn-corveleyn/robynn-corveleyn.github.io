@@ -50,8 +50,8 @@ L'objectif principal est d'offrir aux participantes un espace ouvert et accueill
             <img src="{{ '/assets/images/IMG_11.jpeg' | relative_url }}" style="height:150px; ">
         </a>
   </div>
-	<p style="font-size=22px"> <b> Programme :</b> </p>
-    <img src="{{ '/assets/images/program.png' | relative_url }}" style="width:500px;  ">
+	<p style="font-size=35px"> <b> Programme :</b> </p>
+    <a href="{{ '/assets/images/program.png' | relative_url }}" data-lightbox="programme-gallery" > <img src="{{ '/assets/images/program.png' | relative_url }}" style="width:500px; " align="center"> </a>a>
 </section>
    
 <section style="margin-bottom:2rem;">
