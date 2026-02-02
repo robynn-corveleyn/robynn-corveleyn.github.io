@@ -52,8 +52,8 @@ L'objectif principal est d'encourager les participantes à poursuivre leur inté
         </a>
   </div>
 	<p style="font-size=35px"> <b> Programme :</b> </p>
-	<h2>
-	<a href="{{ '/assets/images/program.png' | relative_url }}" data-lightbox="programme-gallery"> <img src="{{ '/assets/images/program.png' | relative_url }}" style="width:500px; "  align="center"> </a> </h2>
+	<p style="text-align:center;">
+	<a href="{{ '/assets/images/program.png' | relative_url }}" data-lightbox="programme-gallery"> <img src="{{ '/assets/images/program.png' | relative_url }}" style="width:500px; "  align="center"> </a> </p>
 </section>
    
 <section style="margin-bottom:2rem;">
