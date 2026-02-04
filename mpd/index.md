@@ -5,10 +5,10 @@ description: Informations générales sur les Maths Project Days à l'UCLouvain
 ---
   <main style="max-width:1400px; margin:auto; padding:2rem">
     <h1>Maths Project Days @ UCLouvain </h1>
-      <p>Inspiré par des projets similaires en France, tels que <a href="https://www.fr-cirm-math.fr/lescigales.html" target="_blank" rel ="noopener">Les Cigales</a> au CIRM à Marseille, les Maths Project Days sont un événement de quatre jours au cours duquel 30 filles âgées de 13 à 15 ans sont invitées à l'UCLouvain pour travailler en petits groupes sur des projets de recherche mathématiques sous la supervision de chercheurs et chercheuses de l'UCLouvain.</p>
+      <p>Inspirés par des projets similaires en France, tels que <a href="https://www.fr-cirm-math.fr/lescigales.html" target="_blank" rel ="noopener">Les Cigales</a> au CIRM à Marseille, les Maths Project Days sont un événement de quatre jours au cours duquel 30 filles âgées de 13 à 15 ans sont invitées à l'UCLouvain pour travailler en petits groupes sur des projets de recherche mathématiques sous la supervision de chercheurs et chercheuses de l'UCLouvain.</p>
 
 <p>
-L'objectif principal est d'encourager les participantes à poursuivre leur intérêt pour les mathématiques et les sciences en général, en leur permettant de découvrir la recherche mathématique dans un espace ouvert et accueillant, en leur proposant des modèles à suivre par le biais de rencontres avec des mathématiciennes et en favorisant les interactions entre elles à travers diverses activités récréatives.
+L’objectif principal est d’encourager les participantes à nourrir leur intérêt pour les mathématiques et, plus largement, pour les sciences. Pour cela, le programme leur offre la possibilité de découvrir la recherche en mathématiques dans un cadre ouvert et bienveillant, de rencontrer des modèles inspirants à travers des échanges avec des mathématiciennes, et de créer des liens entre elles grâce à diverses activités récréatives.
 
 </p>
   <section style="margin-bottom:2rem;">
