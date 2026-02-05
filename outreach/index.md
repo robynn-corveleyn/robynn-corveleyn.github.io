@@ -13,8 +13,8 @@ description: Find out about the outreach activities Robynn has been involved in.
       <p>
         The key aim is to provide an open and welcoming space for girls to explore their interest in mathematics, in hopes of counteracting internalised biases that might prevent them from wanting to pursue mathematics and STEM. 
       </p>
-      <p> The first iteration of the event took place from the 3rd until the 6th of September 2025. 
-      <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel="noopener">Event page</a></p>
+      <p> The first iteration of the event took place from the 3rd until the 6th of September 2025. <a href="robynn-corveleyn.github.io/mpd" target="_blank" rel="noopener">Event page</a>.
+      See also the <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel="noopener">UCLouvain webpage</a></p>
 
   <div class="gallery">
         <a href="{{ '/assets/images/IMG_0.jpg' | relative_url }}" data-lightbox="MPD-gallery" >
