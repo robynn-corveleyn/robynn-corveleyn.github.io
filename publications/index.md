@@ -29,7 +29,8 @@ description: Click here for an overview of Robynn's publications
           <div class="abstract-text">
             <p>In this article, we construct infinite families $(G_n)_{n \in \mathbb{N}}$ of finite simple groups $G_n$ of Lie type, such that the rank of $G_n$ strictly increases as $n$ tends to infinity, and such that each $G_n$ is a quotient of the maximal unipotent subgroup $U^+$ of the (minimal) Kac-Moody group $\mathfrak{G}_A(\mathbb{K})$ of type $\mathrm{HB}^{(2)}_{2}$ over a finite field $\mathbb{K}$. Moreover, we show that the quotient maps lead to the construction of an infinite family of bounded degree spectral high-dimensional expanders. These provide the first class of examples of infinite families of high-dimensional expanders constructed from Lie type groups of unbounded rank.</p>
             
-          </div>
+          </div> | <a href="{{ '/assets/files/Lie type quotients.pdf' | relative_url }}" target="_blank" rel="opener">
+    pdf</a>.
         </li>
         
       </ul>
