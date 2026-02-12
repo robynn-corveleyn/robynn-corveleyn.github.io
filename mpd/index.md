@@ -13,7 +13,7 @@ L’objectif principal est d’encourager les participantes à nourrir leur int�
 </p>
   <section style="margin-bottom:2rem;">
       <h2>Informations pratiques</h2>
-	L'édition 2026 aura lieu du 2 au 5 septembre 2026. Pour toute information pratique et pour les inscriptions, vous pouvez consulter <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel ="noopener">la page web des Maths Project Days 2026</a>. 
+	L'édition 2026 aura lieu <b>du 2 au 5 septembre 2026</b>. Pour toute information pratique et pour les inscriptions, vous pouvez consulter <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel ="noopener">la page web des Maths Project Days 2026</a>. 
   </section>
 <section>
 	<h2>Edition 2025</h2>     
