@@ -13,8 +13,14 @@ L’objectif principal est d’encourager les participantes à nourrir leur int�
 </p>
   <section style="margin-bottom:2rem;">
       <h2>Informations pratiques</h2>
-	L'édition 2026 aura lieu <b>du 2 au 5 septembre 2026</b>. Pour toute information pratique et pour les inscriptions, vous pouvez consulter <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel ="noopener">la page web des Maths Project Days 2026</a>. 
+	L'édition 2026 a eu lieu <b>du 2 au 5 septembre 2026</b>. Pour toute information pratique et pour les inscriptions, vous pouvez consulter <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel ="noopener">la page web des Maths Project Days 2026</a>. 
   </section>
+<section>
+	<h2>Edition 2026</h2> 
+	<p>
+		La deuxième édition des MPD a eu lieu du 2 au 5 septembre 2026. Une description du déroulement de l'évènement ainqi que quelques photos seront disponibles bientôt.
+	</p>
+</section>
 <section>
 	<h2>Edition 2025</h2>     
       <p> La première édition des Maths Project Days a eu lieu du 3 au 6 septembre 2025. Nous avons accueilli 30 participantes enthousiastes qui ont travaillé sur différents projets de recherche mathématique : le premier groupe a trouvé la meilleure stratégie pour gagner un jeu de dés, le deuxième la <i> pire </i> méthode pour embarquer dans un avion, le troisième les plus jolies fresques pour décorer le palais royal, le quatrième la meilleure méthode pour plier une pâte à tarte de façon à bien distribuer des pépites de chocolat, et le dernier comment accrocher les tableaux d'un musée afin de minimiser les chances qu'ils se fassent dérober. Nous avons également eu un exposé d'<a href="https://math.uni.lu/kiefer/" target="_blank" rel ="noopener" >Ann Kiefer</a>, mathématicienne à l'Université de Luxembourg, venue parler de son parcours mathématique et partager ses expériences professionelles. </p>
