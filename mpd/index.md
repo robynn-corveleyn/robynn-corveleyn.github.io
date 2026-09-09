@@ -18,7 +18,7 @@ L’objectif principal est d’encourager les participantes à nourrir leur int�
 <section>
 	<h2>Edition 2026</h2> 
 	<p>
-		La deuxième édition des MPD a eu lieu du 2 au 5 septembre 2026. Une description du déroulement de l'évènement ainqi que quelques photos seront disponibles bientôt.
+		La deuxième édition des MPD a eu lieu du 2 au 5 septembre 2026. Une description du déroulement de l'évènement ainsi que quelques photos seront disponibles bientôt.
 	</p>
 </section>
 <section>
