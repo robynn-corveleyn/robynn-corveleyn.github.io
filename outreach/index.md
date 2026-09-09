@@ -13,7 +13,7 @@ description: Find out about the outreach activities Robynn has been involved in.
       <p>
         The key aim is to provide an open and welcoming space for girls to explore their interest in mathematics, in hopes of counteracting internalised biases that might prevent them from wanting to pursue mathematics and STEM. 
       </p>
-      <p> The next edition will take place from the 2nd until the 5th of September 2026. The first iteration of the MPDs took place from the 3rd until the 6th of September 2025. <a href="{{ '/mpd/' | relative_url }}">Event page</a>.
+      <p> The second edition of the MPD took place from the 2nd until the 5th of September 2026. The first iteration of the MPD took place from the 3rd until the 6th of September 2025. <a href="{{ '/mpd/' | relative_url }}">Event page</a>.
       See also the <a href="https://www.uclouvain.be/fr/facultes/sc/maths-project-days" target="_blank" rel="noopener">UCLouvain webpage</a>.</p>
 
   <div class="gallery">
