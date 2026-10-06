@@ -11,6 +11,16 @@ description: Click here for an overview of Robynn's publications
       <h2>Preprints</h2>
       <ul>
         <li>
+          Robynn Corveleyn. <i>Presentation of Borel subgroups of Kac—Moody groups over local rings.</i> October 2026. 23 pages.<br>
+          <a href="https://arxiv.org/abs/2610.05224" target="_blank" rel="noopener">arXiv</a> |
+          <a href="#" class="abstract-toggle">abstract</a>
+          <div class="abstract-text">
+            <p>IWe obtain presentations of Borel subgroups of certain Chevalley groups and Kac--Moody groups of simply laced type. More precisely, we show that Borel subgroups of simply laced Chevalley groups over a commutative, unital ring (satisfying a minor technical condition), are the amalgamated product of their rank $2$ subgroups, generalising a result of Tits over fields (different from $\mathbb{F}_2$). We moreover show that Borel subgroups of Kac--Moody groups over local Bézout domains also have a presentation as an amalgamated product of their rank $2$ subgroups as soon as this holds for their rank $3$ subgroups. In particular we deduce that Borel subgroups of simply laced Kac--Moody groups over a local Bézout domain (with residue field different from $\mathbb{F}_2$) have such a presentation if and only if they are of $3$-spherical type. </p>
+            
+          </div> | <a href="{{ '/assets/files/KMSLocalRingsSimplyLaced.pdf' | relative_url }}" target="_blank" rel="opener">
+    pdf</a>.
+        </li>
+        <li>
           Robynn Corveleyn, <a href="https://geoffreyjanssens.github.io/" target="_blank" rel="noopener"> Geoffrey Janssens</a> and <a href="https://researchportal.vub.be/nl/persons/doryan-temmerman/" target="_blank" rel="noopener"> Doryan Temmerman</a>. <i>Representing in Low Rank I: Conjugacy, Topological and Homological aspects.</i> December 2025. 58 pages.<br>
           <a href="https://arxiv.org/abs/2512.22052" target ="_blank" rel="noopener">arXiv</a> |
           <a href="#" class="abstract-toggle">abstract</a> 
