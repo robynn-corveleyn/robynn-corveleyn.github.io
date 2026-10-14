@@ -6,7 +6,7 @@ description: Click here for an overview of Robynn's publications
 
   <main style="max-width:800px; margin:auto; padding:2rem;">
     <h1>Publications</h1>
-
+    <p> I am a member of the <a href="https://www.ahmath.org/" target="_blank" rel="noopener">association for human mathematics</a>. It is important to me to abstain from the usage of artificial intelligence in any way, for a variety of reasons, including most notably environmental considerations. I therefore do not use articifial intelligence at all for my research, nor for the writing of any of my articles. As a search engine, I use the <a href="https://duckduckgo.com/duckduckgo-help-pages/ai-features/about-noaiduckduckgocom" target="_blank" rel="noopener">"No AI" version of DuckDuckGo</a>. </p>
     <section>
       <h2>Preprints</h2>
       <ul>
