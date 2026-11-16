@@ -12,6 +12,17 @@ description: Click here for an overview of Robynn's publications
       <h2>Preprints</h2>
       <ul>
         <li>
+          Robynn Corveleyn, <a href="https://geoffreyjanssens.github.io/" target="_blank" rel="noopener"> Geoffrey Janssens</a> and <a href="https://researchportal.vub.be/nl/persons/doryan-temmerman/" target="_blank" rel="noopener"> Doryan Temmerman</a>. <i>Representing in low rank II: Virtual Structure and Isomorphism Problem.</i> November 2026. 50 pages.<br>
+          <a href="https://arxiv.org/abs/2611.18191" target="_blank" rel="noopener">arXiv</a> |
+          <a href="#" class="abstract-toggle">abstract</a>
+          <div class="abstract-text">
+            <p>We group theoretically characterise the finite groups $G$ and number fields $F$ such that all $F$-representations of reduced degree at least $2$ are so-called <i>exceptional</i>. If $G$ is not a $2$-group, we obtain a full classification. Secondly, we determine whether such groups are uniquely determined by their group algebra $FG$. In particular, we obtain an instance of the virtual structure problem of Kleinert and answer the rational isomorphism problem for such groups.  </p>
+            
+          </div> | <a href="{{ '/assets/files/VSPhigherModularPart2.pdf' | relative_url }}" target="_blank" rel="opener">
+    pdf</a>.
+        </li>
+        <li>
+        <li>
           Robynn Corveleyn. <i>Presentation of Borel subgroups of Kac—Moody groups over local rings.</i> October 2026. 23 pages.<br>
           <a href="https://arxiv.org/abs/2610.05224" target="_blank" rel="noopener">arXiv</a> |
           <a href="#" class="abstract-toggle">abstract</a>
