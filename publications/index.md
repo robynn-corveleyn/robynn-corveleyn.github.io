@@ -22,7 +22,7 @@ description: Click here for an overview of Robynn's publications
     pdf</a>.
         </li>
         <li>
-          Robynn Corveleyn. <i>Presentation of Borel subgroups of Kac—Moody groups over local rings.</i> October 2026. 23 pages.<br>
+          Robynn Corveleyn. <i>Presentation of Borel subgroups of Kac—Moody groups over local rings.</i> October 2026. 25 pages.<br>
           <a href="https://arxiv.org/abs/2610.05224" target="_blank" rel="noopener">arXiv</a> |
           <a href="#" class="abstract-toggle">abstract</a>
           <div class="abstract-text">
